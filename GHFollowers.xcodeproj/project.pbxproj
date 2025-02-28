@@ -22,6 +22,7 @@
 		3DFA27722D70CDFD0043F880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFA27602D70CDFD0043F880 /* LaunchScreen.storyboard */; };
 		3DFA277D2D7142250043F880 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA277C2D7142250043F880 /* Follower.swift */; };
 		3DFA277F2D7142360043F880 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA277E2D7142360043F880 /* User.swift */; };
+		3DFA27842D725BAF0043F880 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA27832D725BAF0043F880 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		3DFA27632D70CDFD0043F880 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		3DFA277C2D7142250043F880 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		3DFA277E2D7142360043F880 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3DFA27832D725BAF0043F880 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				3DFA27732D70CE030043F880 /* Custom Views */,
 				3DFA27772D70CE990043F880 /* Extensions */,
 				3DFA27792D7141FC0043F880 /* Models */,
+				3DFA27802D725B6F0043F880 /* Managers */,
 				3DFA27752D70CE850043F880 /* Screens */,
 				3DFA27762D70CE8C0043F880 /* Support */,
 			);
@@ -132,6 +135,14 @@
 				3DFA277E2D7142360043F880 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3DFA27802D725B6F0043F880 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA27832D725BAF0043F880 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,7 @@
 				3DFA276B2D70CDFD0043F880 /* GFTextField.swift in Sources */,
 				3DFA277D2D7142250043F880 /* Follower.swift in Sources */,
 				3DFA276C2D70CDFD0043F880 /* GFTitleLabel.swift in Sources */,
+				3DFA27842D725BAF0043F880 /* NetworkManager.swift in Sources */,
 				3DFA276D2D70CDFD0043F880 /* SceneDelegate.swift in Sources */,
 				3DFA276E2D70CDFD0043F880 /* SearchVC.swift in Sources */,
 				3DFA276F2D70CDFD0043F880 /* UIViewController+Ext.swift in Sources */,
