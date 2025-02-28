@@ -1,0 +1,18 @@
+### macOS Files ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Ignore user-specific Xcode files ###
+*.xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+
+# Derived Data (builds, indexes)
+DerivedData/
+*.hmap
+
+# Xcode temporary files
+*.xcodeproj/*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/
